@@ -1,0 +1,83 @@
+body {
+    display: grid;
+    background-color: grey;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.my-div {
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px black;
+}
+
+
+input:focus {
+    outline: 1px solid blue;
+}
+
+#input-id {
+    box-sizing: border-box;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+#button-id {
+    box-sizing: border-box;
+    background-color: rgb(54, 54, 227);
+    color: white;
+    border-radius: 10px;
+    padding: 3.5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2px;
+
+
+
+}
+
+#button-id:hover {
+    background-color: rgb(32, 32, 122);
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    width: 100%;
+
+}
+
+button {
+    background-color: #e22727;
+    color: white;
+    margin-left: 12px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+button:hover {
+    background-color: rgb(145, 8, 8);
+}
+
+
+#ul-id {
+    background-color: lightgray;
+    margin: center;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
